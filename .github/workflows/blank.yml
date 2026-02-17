@@ -1,10 +1,11 @@
-name: testing the pipeline
+name: second job
 on: workflow_dispatch
 jobs:
-  first-job:
+  second-job:
     runs-on: ubuntu-latest
     steps:
-      - name: first job
-        run: echo "testing the first"
-      - name: second job
-        run: echo "second job"
+      - name: first ste
+        run: |
+        echo "hi"continue-on-error: continue-on-error: "
+        echo "second the line"
+        echo "third line"
