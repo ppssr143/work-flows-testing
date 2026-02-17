@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: first ste
         run: |
-        echo "hi cont "
-        echo "second the line"
-        echo "third line"
+          echo "hi cont "
+          echo "second the line"
+          echo "third line"
