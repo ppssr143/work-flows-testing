@@ -1,0 +1,11 @@
+name: testing the workflows
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printing the name
+        run: echo "hello world"
+      - name: printing the second
+        run: echo "second trigger "
+        
