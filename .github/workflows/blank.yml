@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: first ste
         run: |
-        echo "hi"continue-on-error: continue-on-error: "
+        echo "hi continue-on-error: continue-on-error: "
         echo "second the line"
         echo "third line"
