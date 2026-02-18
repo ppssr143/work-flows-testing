@@ -1,11 +1,11 @@
-name: second job
+name: first test
 on: workflow_dispatch
 jobs:
-  second-job:
+  testing:
     runs-on: ubuntu-latest
     steps:
-      - name: first ste
+      - name: first test
         run: |
-          echo "hi cont "
-          echo "second the line"
-          echo "third line"
+          echo "welcome"
+          echo "second one"
+          
